@@ -38,5 +38,5 @@ export const weather = async (args: string[]): Promise<string> => {
 
 export const dadjoke = async (args: string[]): Promise<string> => {
   const data = await getDadJoke();
-  return data;
+  return data.quote;
 };

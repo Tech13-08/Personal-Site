@@ -30,6 +30,8 @@ export const getQuote = async () => {
 };
 
 export const getDadJoke = async () => {
-  const { data } = await axios.get('https://icanhazdadjoke.com');
-  return data;
+  const { data } = await axios.get('https://icanhazdadjoke.com/slack');
+  return {
+    quote: `"${data.attachments.text}"`,
+  };
 };
