@@ -28,3 +28,8 @@ export const getQuote = async () => {
     quote: `“${data.content}” — ${data.author}`,
   };
 };
+
+export const getDadJoke = async () => {
+  const { data } = await axios.get('https://icanhazdadjoke.com');
+  return data;
+};
