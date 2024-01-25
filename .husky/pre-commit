@@ -1,10 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-nvm install v20.11.0
-nvm use v20.11.0
-npm install next -g
+
 yarn lint
