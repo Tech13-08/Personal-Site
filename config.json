@@ -1,16 +1,16 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "title": "Falak",
+  "name": "Falak Tulsi",
+  "ascii": "falak",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "Tech13-08",
+    "linkedin": "falaktulsi"
   },
-  "email": "contact@email.com",
+  "email": "falaktulsi@gmail.com",
   "ps1_hostname": "liveterm",
   "ps1_username": "visitor",
-  "repo": "https://github.com/Tech13-08/Tech13-08.github.io",
+  "repo": "https://github.com/Tech13-08/Personal-Site",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
     "paypal": "https://paypal.me/cveinnt",
