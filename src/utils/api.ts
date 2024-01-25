@@ -30,8 +30,13 @@ export const getQuote = async () => {
 };
 
 export const getDadJoke = async () => {
-  const { data } = await axios.get('https://icanhazdadjoke.com/slack');
+  const { data } = await axios.get('https://icanhazdadjoke.com/', {
+    headers: {
+      // eslint-disable-next-line prettier/prettier
+      'Accept': 'text/plain',
+    },
+  });
   return {
-    quote: `"${data.attachments.text}"`,
+    quote: data,
   };
 };
